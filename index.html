@@ -1,45 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    </link>
-    <script src="script.js"></script>
-</head>
-
-<body>
-    <div id="container">
-        <div id="calc">
-
-        </div>
-
-        <div id="teclas">
-
-            <button class="numero" id="1">1</button>
-            <button class="numero" id="2">2</button>
-            <button class="numero" id="3">3</button>
-            <button class="numero" id="4">4</button>
-            <button class="numero" id="5">5</button>
-            <button class="numero" id="6">6</button>
-            <button class="numero" id="7">7</button>
-            <button class="numero" id="8">8</button>
-            <button class="numero" id="9">9</button>
-            <button class="numero" id="0">0</button>
-            <button class="operador" id="+">+</button>
-            <button class="operador" id="/">&#247;</button>
-            <button class="operador" id="*">&times;</button>
-            <button class="operador" id="-">-</button>
-            <button class="operador" id="=">=</button>
-
-
-
-        </div>
-
-    </div>
-</body>
-
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+		<title>Calculadora Simples</title>
+	</head>
+	<body >
+		<div id="container">
+			<div id="calc">
+				<div id="resultado">
+						<p id="valor-saida"></p>
+				</div>
+				<div id="keyboard">
+					<button class="operadores" id="clear">C</button>
+					<button class="operadores" id="backspace">CE</button>
+					<button class="operadores" id="%">%</button>
+					<button class="operadores" id="/">&#247;</button>
+					<button class="numeros" id="7">7</button>
+					<button class="numeros" id="8">8</button>
+					<button class="numeros" id="9">9</button>
+					<button class="operadores" id="*">&times;</button>
+					<button class="numeros" id="4">4</button>
+					<button class="numeros" id="5">5</button>
+					<button class="numeros" id="6">6</button>
+					<button class="operadores" id="-">-</button>
+					<button class="numeros" id="1">1</button>
+					<button class="numeros" id="2">2</button>
+					<button class="numeros" id="3">3</button>
+					<button class="operadores" id="+">+</button>
+					<button class="numeros" id="0">0</button>
+					<button class="operadores" id=".">.</button>
+					<button class="operadores" id="=">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
