@@ -2,13 +2,28 @@
     margin: 0px;
     padding: 0px;
 }
-.col {
-    width: 10%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .calculadora {
-    display: block;
-    width: 100vw;
-}
-.inicio {
     display: flex;
+    background-color: #38405E;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.painel {
+    display: flex;
+    width: auto;
+}
+.btn {
+    justify-self: end;
+}
+.botoes {
+    display: flex;
+}
+.btn-style{
+    box-shadow: 0px 3px 2px -2px black;
 }
