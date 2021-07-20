@@ -18,37 +18,37 @@
     <div class="calculadora">
         <div class="container">
             <div class=" resultado">
-                <p class="valor"></p>
+                <p class="valor" id="valor"></p>
             </div>
 
             <div class="botoes">
-                <input type="button" value="7" class="btn btn-sm">
-                <input type="button" value="8" class="btn btn-sm">
-                <input type="button" value="9" class="btn btn-sm">
-                <input type="button" value="c" class="btn btn-sm">
+                <input type="button" value="7" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="8" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="9" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="del" class="btn btn-sm" onclick="limpar()">
             </div>
 
             <div class="botoes">
-                <input type="button" value="4" class="btn btn-sm">
-                <input type="button" value="5" class="btn btn-sm">
-                <input type="button" value="6" class="btn btn-sm">
-                <input type="button" value="+" class="btn btn-sm">
+                <input type="button" value="4" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="5" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="6" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="+" class="btn btn-sm" onclick="botao(value)">
             </div>
             <div class="botoes">
-                <input type="button" value="1" class="btn btn-sm">
-                <input type="button" value="2" class="btn btn-sm">
-                <input type="button" value="3" class="btn btn-sm">
-                <input type="button" value="-" class="btn btn-sm">
+                <input type="button" value="1" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="2" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="3" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="-" class="btn btn-sm" onclick="botao(value)">
             </div>
             <div class="botoes">
-                <input type="button" value="." class="btn btn-sm">
-                <input type="button" value="0" class="btn btn-sm">
-                <input type="button" value="/" class="btn btn-sm">
-                <input type="button" value="*" class="btn btn-sm">
+                <input type="button" value="." class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="0" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="/" class="btn btn-sm" onclick="botao(value)">
+                <input type="button" value="*" class="btn btn-sm" onclick="botao(value)">
             </div>
             <div class="botoes botoes-grandes">
-                <input type="button" value="reset" class="btn btn-style">
-                <input type="button" value="=" class="btn btn-style">
+                <input type="button" value="reset" class="btn btn-style" onclick="limpar_tela()">
+                <input type="button" value="=" class="btn btn-style" onclick="calcula()">
             </div>
         </div>
     </div>
